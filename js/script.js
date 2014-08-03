@@ -509,7 +509,7 @@ $(function() {
             '<div class="accordion-inner">' +
             description.description + "<br />" + target_tag +
             '<div class="targetDays"></div>' +
-            '<a class="page-top">PAGE TOP</a>' +
+            '<p class="page-top"><a>PAGE TOP</a></p>' +
             '</div>' +
             "</div>" +
             "</div>";
