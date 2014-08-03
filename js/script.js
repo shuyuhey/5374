@@ -508,7 +508,9 @@ $(function() {
             '<div id="collapse' + i + '" class="accordion-body collapse">' +
             '<div class="accordion-inner">' +
             description.description + "<br />" + target_tag +
-            '<div class="targetDays"></div></div>' +
+            '<div class="targetDays"></div>' +
+            '<a class="page-top">PAGE TOP</a>' +
+            '</div>' +
             "</div>" +
             "</div>";
       }
@@ -537,9 +539,9 @@ $(function() {
     });
   }
 
-  function onChangeSelect(row_index) {　
+  function onChangeSelect(row_index) {
     if (row_index == -1) {
-      $("#accordion").html("");
+$("#accordion").html("");
       setSelectedAreaName("");
       return;
     }
